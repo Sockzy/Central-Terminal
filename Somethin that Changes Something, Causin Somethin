@@ -1,0 +1,10 @@
+local theBaseplate = game.Workspace.BetterBasePlates 
+
+local function makeBetterBaseplatesGreen(message)
+	theBaseplate.CanCollide = false
+	theBaseplate.BrickColor = BrickColor.Green()
+	print(message)
+end
+
+makeBetterBaseplatesGreen("I've Become Green!")
+
